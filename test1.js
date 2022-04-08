@@ -1,12 +1,22 @@
 "use strict";
 
 
-let number = 5;
-const leftBorderWidth = 1; 
+let numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
 
-number = 117;
-console.log(number, leftBorderWidth);
+let personaMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat : false
+};
 
-const category = 'roys';
+const a = prompt('Один из последних просмотренных фильмов?'),
+      b = prompt('На сколько вы оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?'),
+      d = prompt('На сколько вы оцените его?', '');
 
-console.log(`http://url.com/${category}/5/5`)
+personaMovieDB.movies[a] = b;
+personaMovieDB.movies[c] = d;
+
+console.log(personaMovieDB);
