@@ -1,8 +1,37 @@
 "use strict";
 
+let name = 'Vasia';
+name.length = 50;
+console.log(length.name, 'what');
 
 
+// let i = 0; 
+// let c = 0;
+// const str = 'Rolling Scopes School';
+// while (i < str.length) { if (str[i] === 'o') { c++; } i++; }
+// console.log(c, 'wtf');
 
+
+// function BatHello() {
+//     let UserName = prompt('Introduce yourself', 'Enter your name here, please');
+//     alert(`Hello, ${UserName}, do you bleed?`);
+// }
+
+
+// BatHello();
+
+
+// const oldArray = [1, 2, 'e', [117,42]];
+// const newArray = [...oldArray];
+
+// console.log(oldArray);
+// console.log(newArray);
+
+// newArray[3][0] = 'kek';
+
+
+// console.log(oldArray);
+// console.log(newArray);
 
 
 
